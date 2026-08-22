@@ -1,0 +1,8 @@
+numpy<2
+matplotlib
+cmake 
+eigen 
+pybind11[global]
+pyyaml
+pandas
+click

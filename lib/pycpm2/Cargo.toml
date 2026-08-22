@@ -1,0 +1,15 @@
+[package]
+name = "pycpm2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pycpm2"
+crate-type = ["cdylib"]
+
+[dependencies]
+cpm2 = { version = "0.1.0", path = "../cpm2/library" }
+cpmmd = { version = "0.1.0", path = "../../src/cpmmd" }
+pyo3 = "0.23.1"
+serde_yaml = "0.9.34"

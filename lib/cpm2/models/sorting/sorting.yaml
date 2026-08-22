@@ -1,0 +1,12 @@
+grid_sizex: 100
+grid_sizey: 100
+init_cell_size: 200
+init_cell_number_divisions: 0
+temperature: 1.0
+target_area_lambda: 0.1
+target_area: 200
+j_matrix: [0.0, 1.0, 1.0, 1.0, 1.0, 1.0] 
+output_interval: 1
+output_prefix: "./output/frame_"
+mcs: 100
+seed: 0

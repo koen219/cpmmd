@@ -1,0 +1,61 @@
+cpm:
+  adhesion_annihilation_penalty: 0
+  adhesion_creation: false
+  adhesion_overflow_number: 10
+  adhesion_overflow_penalty: 0.0
+  area_contraction: 0.0
+  check_connectivity: false
+  grid_sizex: 200
+  grid_sizey: 200
+  grid_sizez: 200
+  init_adhesion_radius: 25.0
+  init_cell_number_divisions: 0
+  init_cell_size: 144000
+  j_matrix:
+  - 0.0
+  - 10.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  lambda_act: 0.0
+  max_act: 1.0
+  mcs: 2001
+  num_init_adhesions: 1000
+  seed: 0
+  target_area: 0
+  target_area_lambda: 5.0e-06
+  target_perimiter: 400.0
+  target_perimiter_lambda: 0.0
+  temperature: 1.0
+gen_ecm:
+  bend_k: 10.0
+  bend_t0: 3.1415
+  bottom_fixed: true
+  contour_length_fiber: 50
+  crosslink_bin_size: 4.0
+  crosslink_k: 10.0
+  crosslink_max_r: 4.0
+  crosslink_quant_step: 0.3
+  crosslink_r0: 0.0
+  fixed_boundary: true
+  helix_angle: 0.0
+  network_seed: 0
+  num_init_crosslinks: 0
+  number_of_beads_per_strand: 9
+  number_of_strands: 14400
+  spring_k: 10.0
+  spring_r0: 6.25
+  top_fixed: true
+it: 1
+md:
+  dt: 0.01
+  gpu: false
+  its: 200
+  kT: 0.0001
+  overdamped: true
+  seed: 1
+  viscosity: 1.0
+storage:
+  output_folder: ./data/
+  stride: 100

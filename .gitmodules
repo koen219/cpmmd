@@ -1,0 +1,4 @@
+[submodule "lib/hoomd/hoomd-blue"]
+	path = lib/hoomd/hoomd-blue
+	url = git@github.com:glotzerlab/hoomd-blue.git
+	branch = 3.0.0

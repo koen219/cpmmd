@@ -1,0 +1,26 @@
+# This file species the parameters used in the model.
+# This file get parsed automaticaly when running cargo build and it
+# is then used in the python script 'gen_config.py' to generate
+# the Config struct that is used in the model.
+
+# Types that are supported are:
+# - uint (unsigned integer maps to usize)
+# - int (integer maps to i32)
+# - float (floating point number maps to f64)
+# - bool (boolean)
+# - List[float] (List of floating points, maps to Vec<f64>)
+# If you need to add something else, you can add it in 'gen_config.py'.
+
+Config:
+  grid_sizex: uint
+  grid_sizey: uint
+  init_cell_size: uint
+  init_cell_number_divisions: uint
+  temperature: float
+  target_area_lambda: float
+  target_area: uint
+  j_matrix: List[float]
+  output_interval: uint
+  output_prefix: string
+  mcs: uint
+  seed: uint

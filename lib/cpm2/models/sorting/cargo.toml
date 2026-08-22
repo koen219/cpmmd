@@ -1,0 +1,12 @@
+[package]
+name = "sorting_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpm2 = { version = "0.1.0", path = "../../library" }
+rand = "0.9.1"
+serde = { version= "1.0.219", features = ["derive"]}
+serde_yaml = "0.9.34"
+
+
